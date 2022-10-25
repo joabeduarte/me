@@ -210,6 +210,8 @@ body {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   justify-content: space-between;
   color: #fdfcfe;
@@ -244,6 +246,12 @@ body {
   position: absolute;
   left: 50%;
   margin-top: 3px;
+}
+
+@media (max-width: 900px) {
+  .menu-header {
+    display: none;
+  }
 }
 
 /* main */
