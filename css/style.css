@@ -204,3 +204,19 @@ body {
   display: flex;
   gap: 2rem;
 }
+.home-a {
+  position: relative;
+}
+.home-a::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  background-color: currentColor;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  margin-top: 3px;
+}
+
+/*  */
