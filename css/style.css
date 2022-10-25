@@ -173,7 +173,12 @@ body {
   text-transform: uppercase;
   padding-bottom: 3rem;
 }
-
+.ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  font-size: 1.125rem;
+}
 /* header */
 
 .header {
@@ -225,7 +230,6 @@ body {
 
 .main {
   max-width: 80ch;
-  background-color: lightblue;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -237,7 +241,6 @@ body {
 .hero {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #52beac;
 }
 
 .hero h1 {
@@ -260,14 +263,14 @@ body {
 /* cursos  */
 
 .academic {
-  background-color: #1f1f24;
   padding-bottom: 3rem;
   color: #fdfcfe;
 }
 
-.academic-ul {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-  font-size: 1.125rem;
+/* portfolio */
+
+.portfolio {
+
+  padding-bottom: 3rem;
+  color: #fdfcfe;
 }
