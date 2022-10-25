@@ -182,11 +182,22 @@ body {
   line-height: 28px;
   color: #fdfcfe;
 }
-.ul li a {
-  opacity: 0.8;
+.a-effect li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.ul a:hover {
-  opacity: 1;
+.a-effect li a::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 3px;
+  background-color: currentColor;
+  transition: 0.3s;
+}
+.a-effect li a:hover::before {
+  width: 10px;
 }
 /* header */
 
@@ -279,6 +290,30 @@ body {
 /* portfolio */
 
 .portfolio {
+  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #fdfcfe;
+}
+
+/* footer */
+
+.footer {
+  max-width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer .ul a {
+  text-decoration: underline;
+}
+
+.footer .ul li a {
+  opacity: 0.8;
+}
+.footer .ul a:hover {
+  opacity: 1;
 }
