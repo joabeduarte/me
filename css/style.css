@@ -260,6 +260,14 @@ body {
 /* cursos  */
 
 .academic {
-  background-color: aliceblue;
+  background-color: #1f1f24;
   padding-bottom: 3rem;
+  color: #fdfcfe;
+}
+
+.academic-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  font-size: 1.125rem;
 }
