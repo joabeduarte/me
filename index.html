@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Raleway:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -25,14 +27,14 @@
   </header>
 
   <main class="main">
-    <section class="hero">
+    <section class="hero fadeInUp" data-anime="400">
       <h1>Hello, my nome is Joabe.</h1>
       <h2>I am a Software Developer Student based in Bahia, Brazil. <br>
         Currently I'm completing my graduation (3/4) and studying alone and through the Origamid platform.
       </h2>
     </section>
 
-    <section class="academic" id="academic">
+    <section class="academic" id="academic" data-anime="800">
       <h1 class="t2">Academic</h1>
       <ul class="ul a-effect">
         <li><a href="https://www.origamid.com/certificate/4cbcc5c7" target="_blank">Web Design</a></li>
@@ -48,7 +50,7 @@
       </ul>
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio" data-anime="800">
       <h1 class="t2">Portfolio</h1>
       <ul class="ul a-effect">
         <li><a href="https://joabeduarte.github.io/bikcraft/" target="_blank">Bikcraft</a></li>
@@ -72,6 +74,7 @@
 
   </footer>
 
+  <script src="./js/plugin/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

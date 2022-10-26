@@ -1,3 +1,7 @@
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
 // currículo
 const curriculo = document.querySelector(".curriculo");
 
