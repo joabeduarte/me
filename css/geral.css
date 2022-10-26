@@ -186,15 +186,15 @@ ul li a {
 }
 .a-effect li a {
   position: relative;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem; */
-  margin-left: 8px;
-  transition: 0.3s;
+  gap: 0.5rem;
+  /* margin-left: 8px;
+  transition: 0.3s; */
 }
-.a-effect li a:hover {
+/* .a-effect li a:hover {
   margin-left: 16px;
-}
+} */
 .a-effect li a::before {
   content: "";
   display: block;
@@ -202,8 +202,8 @@ ul li a {
   height: 3px;
   background-color: currentColor;
   transition: 0.3s;
-  position: absolute;
-  bottom: 50%;
+  /* position: absolute;
+  bottom: 50%; */
 }
 .a-effect li a:hover::before {
   width: 10px;
