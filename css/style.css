@@ -164,7 +164,9 @@ body {
   font-family: "Raleway", sans-serif;
   /* font-family: "Libre Baskerville", serif; */
 }
-
+ul li a {
+  cursor: pointer;
+}
 .t2 {
   font-weight: 700;
   font-size: 0.875rem;
@@ -249,8 +251,15 @@ body {
 }
 
 @media (max-width: 900px) {
-  .menu-header {
+  .header-nav{
+   justify-content: center;
+  }
+  .logo-header{
     display: none;
+  }
+  .menu-header {
+    /* display: none; */
+
   }
 }
 
