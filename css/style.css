@@ -206,6 +206,10 @@ ul li a {
 .header {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background-color: #1f1f24;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 .header-nav {
@@ -251,15 +255,14 @@ ul li a {
 }
 
 @media (max-width: 900px) {
-  .header-nav{
-   justify-content: center;
+  .header-nav {
+    justify-content: center;
   }
-  .logo-header{
+  .logo-header {
     display: none;
   }
   .menu-header {
     /* display: none; */
-
   }
 }
 
